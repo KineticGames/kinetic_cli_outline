@@ -1,0 +1,12 @@
+# Build dirs
+build/
+cmake-build-*/
+
+# IDEs
+.fleet/
+.idea/
+.vscode/
+
+# Docs
+docs/
+
