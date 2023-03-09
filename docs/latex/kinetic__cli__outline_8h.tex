@@ -1,0 +1,57 @@
+\hypertarget{kinetic__cli__outline_8h}{}\doxysection{include/kinetic\+\_\+cli\+\_\+outline.h File Reference}
+\label{kinetic__cli__outline_8h}\index{include/kinetic\_cli\_outline.h@{include/kinetic\_cli\_outline.h}}
+Include dependency graph for kinetic\+\_\+cli\+\_\+outline.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{kinetic__cli__outline_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{kinetic__cli__outline_8h_a48522a10b4cb23f5a9bed1387e498e6d}{get\+\_\+extension\+\_\+command}} (char $\ast$name, size\+\_\+t $\ast$name\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Get the command that should trigger the extension. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{kinetic__cli__outline_8h_ac1f545534cdaab9094198a5dc2c2a79f}{run}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Run the command. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{kinetic__cli__outline_8h_a48522a10b4cb23f5a9bed1387e498e6d}\label{kinetic__cli__outline_8h_a48522a10b4cb23f5a9bed1387e498e6d}} 
+\index{kinetic\_cli\_outline.h@{kinetic\_cli\_outline.h}!get\_extension\_command@{get\_extension\_command}}
+\index{get\_extension\_command@{get\_extension\_command}!kinetic\_cli\_outline.h@{kinetic\_cli\_outline.h}}
+\doxysubsubsection{\texorpdfstring{get\_extension\_command()}{get\_extension\_command()}}
+{\footnotesize\ttfamily void get\+\_\+extension\+\_\+command (\begin{DoxyParamCaption}\item[{char $\ast$}]{name,  }\item[{size\+\_\+t $\ast$}]{name\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Get the command that should trigger the extension. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & outputs the name. \\
+\hline
+{\em name\+\_\+length} & outputs the length of the name. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{kinetic__cli__outline_8h_ac1f545534cdaab9094198a5dc2c2a79f}\label{kinetic__cli__outline_8h_ac1f545534cdaab9094198a5dc2c2a79f}} 
+\index{kinetic\_cli\_outline.h@{kinetic\_cli\_outline.h}!run@{run}}
+\index{run@{run}!kinetic\_cli\_outline.h@{kinetic\_cli\_outline.h}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily int run (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Run the command. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & pass-\/through of the main function\textquotesingle{}s argc \\
+\hline
+{\em argv} & pass-\/through of the main function\textquotesingle{}s argv \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+success value gets passed through and returned in the cli application 
+\end{DoxyReturn}
