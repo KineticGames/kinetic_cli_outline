@@ -14,7 +14,7 @@ jobs:
     - uses: langroodi/doxygenize@v1.7.0
       with:
         htmloutput: './docs/html'
-        ghpagesbranch: 'master'
+        ghpagesbranch: 'main'
         ghpagesdir: './docs/'
         darkmode: true
     
