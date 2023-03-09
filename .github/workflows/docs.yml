@@ -28,7 +28,6 @@ jobs:
         htmloutput: './docs/html'
         ghpagesbranch: 'main'
         ghpagesdir: './docs/'
-        darkmode: true
 
   deploy:
     needs: generate
